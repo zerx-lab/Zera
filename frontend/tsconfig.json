@@ -15,10 +15,9 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
-    // 设置基础路径
-    "baseUrl": ".",
+    // 路径别名（TS 6.0 起无需 baseUrl，paths 相对 tsconfig 解析）
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     },
     /* Linting */
     "strict": true,
